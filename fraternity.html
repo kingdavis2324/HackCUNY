@@ -1,44 +1,126 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<title>Quiz</title>
-</head>
-<body>
-<div class="container">
-	<form method='post' action='match.html'>
 
-What would you most like to get out of a fraternity/ sorority?<br>
-<input type='radio' name='a1' value='1'> Parties<br>
-<input type='radio' name='a1' value='2'> Networking<br>
-<input type='radio' name='a1' value='3'> Community<br>
-<input type='radio' name='a1' value='4'> Cool Clothing<br>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
+    rel="stylesheet" type="text/css">
+    <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css"
+    rel="stylesheet" type="text/css">
+    <style media="screen">
+      .header {
+      				background-color: white;
+      				padding-bottom-color: orange 10px;
+      			}
+      li {
+      	border-left-color: orange 10px;
+      }
+    </style>
+  </head>
 
-How much effort are you willing to expend into the pledging process?<br>
-<input type='radio' name='a2' value='1'> 10 hours a week for 8 weeks<br>
-<input type='radio' name='a2' value='2'> 10 hours total<br>
-<input type='radio' name='a2' value='3'> 5 intense hours a week for 8 weeks<br>
-<input type='radio' name='a2' value='4'> None<br>
+  <body>
+    <div class="row header">
+      <div class="navbar">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse"></button>
+            <a class="navbar-brand" href="#"><br></a>
+          </div>
+          <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li style="border-left:" class="active">
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cover">
+      <div class="cover-image" style="background-image : url('https://trumpadmin.trumphotels.com/uploads/367/0/cp-mast-columbuscircle.jpg')"></div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="list-group">
+              <li class="list-group-item">What would you most like to get out of a fraternity/ sorority?
+                <br>
+                <input type="radio" name="a1" value="1">Parties
+                <br>
+                <input type="radio" name="a1" value="2">Networking
+                <br>
+                <input type="radio" name="a1" value="3">Community
+                <br>
+                <input type="radio" name="a1" value="4">Cool Clothing
+                <br>
+              </li>
+              <li class="list-group-item">How much effort are you willing to expend into the pledging process?
+                <br>
+                <input type="radio" name="a2" value="1">10 hours a week for 8 weeks
+                <br>
+                <input type="radio" name="a2" value="2">10 hours total
+                <br>
+                <input type="radio" name="a2" value="3">5 intense hours a week for 8 weeks
+                <br>
+                <input type="radio" name="a2" value="4">None
+                <br>
+              </li>
+              <li class="list-group-item">How much MONEY are you willing to spend on membership?
+                <br>
+                <input type="radio" name="a3" value="1">50 per semester
+                <br>
+                <input type="radio" name="a3" value="2">100 per semester
+                <br>
+                <input type="radio" name="a3" value="3">A 200 dollar flat fee
+                <br>
+                <input type="radio" name="a3" value="4">Doesn’t matter
+                <br>
+              </li>
+              <li class="list-group-item">From a rating of 1-4. 1 being the best, 4 beings the worst. How good are
+                you at keeping secrets? Assume that not keeping a secret would result in
+                bad consequences.
+                <br>
+                <input type="radio" name="a4" value="1">1
+                <br>
+                <input type="radio" name="a4" value="2">2
+                <br>
+                <input type="radio" name="a4" value="3">3
+                <br>
+                <input type="radio" name="a4" value="4">4
+                <br>
+              </li>
+              <li class="list-group-item">From a rating of 1-4. 1 being the best, 4 beings the worst. How good are
+                you at opening up to others about your thoughts and feelings?
+                <br>
+                <input type="radio" name="a5" value="1">1
+                <br>
+                <input type="radio" name="a5" value="2">2
+                <br>
+                <input type="radio" name="a5" value="3">3
+                <br>
+                <input type="radio" name="a5" value="4">4
+                <br>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <a href="match.html" class="btn btn-primary">Submit my amazing questionaire</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 
-How much MONEY are you willing to spend on membership?<br>
-<input type='radio' name='a3' value='1'> 50 per semester<br>
-<input type='radio' name='a3' value='2'> 100 per semester<br>
-<input type='radio' name='a3' value='3'> A 200 dollar flat fee<br>
-<input type='radio' name='a3' value='4'> Doesn’t matter<br>
-
-From a rating of 1-4. 1 being the best, 4 beings the worst. How good are you at keeping secrets? Assume that not keeping a secret would result in bad consequences.<br>
-<input type='radio' name='a4' value='1'> 1<br>
-<input type='radio' name='a4' value='2'> 2<br>
-<input type='radio' name='a4' value='3'> 3<br>
-<input type='radio' name='a4' value='4'> 4<br>
-
-From a rating of 1-4. 1 being the best, 4 beings the worst. How good are you at opening up to others about your thoughts and feelings?<br>
-<input type='radio' name='a5' value='1'> 1<br>
-<input type='radio' name='a5' value='2'> 2<br>
-<input type='radio' name='a5' value='3'> 3<br>
-<input type='radio' name='a5' value='4'> 4<br>
-
-<input type='submit' value='Find me a Frat'>
-</form>
-</div>
-</body>
 </html>
