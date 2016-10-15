@@ -158,7 +158,7 @@ li.cbxgrid-item-none {
   display: none;
 }
 #lz-headertop {
-  background: url('../img/header.jpg') center center no-repeat fixed;
+  background: url('../img/alphaq.jpg') center center no-repeat fixed;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -3622,6 +3622,9 @@ li.cbxgrid-item-none {
   html {
     font-size: 50%;
   }
+}
+.harambae{
+  color: #f5740a;
 }
 /*==================================================
      =            Bootstrap 3 Media Queries      =
